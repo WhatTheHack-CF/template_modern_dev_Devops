@@ -98,6 +98,8 @@ resource conatinerAppEnvironment 'Microsoft.App/managedEnvironments@2022-03-01' 
   }
 }
 
+// Cuando ya hagas el deploy de tu app recuerda cambiar el targetPort a: 3000
+
 resource containerApp 'Microsoft.App/containerApps@2022-03-01' = {
   name: '${namePrefix}containerapp'
   location: location
