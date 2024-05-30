@@ -1,23 +1,51 @@
-# Exploring modern DevOps
+# What The Hack - Modern development con DevOps y GitHub
 
-This repository is built as a resource to begin exploring GitHub and [DevOps](https://en.wikipedia.org/wiki/DevOps). Working through either a [guided workshop](./guided-workshop/) or a [challenge-based approach](./what-the-hack/Student/), you will learn the core concepts of DevOps and features available on GitHub to support you.
+## ¿Qué es What The Hack?
 
-The workshop is centered around an application (included in this repository) written using [Next.js](https://nextjs.org/) with a [MongoDB](https://www.mongodb.com/) backend, and the beginnings of end-to-end testing with [Cypress](https://www.cypress.io/). You can use this repository as a template for creating your own projects, or walk through the available workshop and resources.
+WhatTheHack es una iniciativa de Código Facilito auspiciada por Microsoft, donde enfrentaremos retos de diversas temáticas trabajando en equipos de 3 a 5 personas. La idea es resolver desafíos técnicos utilizando tecnología. Esto no es un taller; son retos que describen tareas a un nivel general para que puedas completarlas por tu cuenta. No son laboratorios paso a paso. Lo que buscamos es que tengas una experiencia de aprendizaje colaborativa, donde puedas compartir con tus compañeros de equipo. 
 
-## Getting started with DevOps and GitHub
+Contarás con coaches y facilitadores que, en caso de que encuentres dificultades con alguna pregunta, podrán ayudarte a resolverla. No estás solo para enfrentar estos desafíos, tienes a tu equipo y a todos nosotros para ayudarte a superar los retos que presentamos. 
 
-[GitHub is built on GitHub](./how-github-uses-github.md). We use [GitHub Actions](./automation.md) for [automation](./guided-workshop/resources/automation.md). We use [GitHub Advanced Security](https://github.com/features/security) to secure the development pipeline. We use [GitHub Codespaces](https://github.com/features/codespaces) to [write code](./guided-workshop/exercises/3-codespaces.md). And we use [GitHub Copilot](https://github.com/features/copilot) as an AI pair programmer. You can learn more about how we use [GitHub](./guided-workshop/resources/how-github-uses-github.md) to create GitHub and manage our DevOps processes, and begin exploring the features available. You can also gain hands-on experience by completing the workshops highlighted below.
+**¡Gracias y bienvenido a WhatTheHack!**
 
-## Workshop formats
+## Introducción del reto
 
-### Step-by-step guided workshop
+Bienvenido a este desafío de What The Hack con Código Facilito. En este reto, nos centraremos en Modern development con DevOps y GitHub. Nuestro objetivo es ayudarte a aumentar la velocidad de desarrollo e implementar procedimientos adecuados de DevOps en tu organización. GitHub ofrece un conjunto de herramientas para desarrolladores que permiten agilizar la creación de código, automatizar tareas y garantizar la seguridad del código. A lo largo de este reto, explorarás cómo implementar estos procesos de manera efectiva.
 
-If you prefer a more guided experience, you can work through the [step-by-step workshop](./guided-workshop/). The workshop contains step-by-step instructions to complete the tasks and supporting information to learn more about the technology.
+## El escenario del reto
 
-> **[Begin the guided workshop!](./guided-workshop/README.md)**
+Como parte de una campaña de ayudar a la comunidad, tu empresa está apoyando a un refugio local de animales actualizando, desplegando y gestionando una aplicación web para mostrar mascotas disponibles para adopción.
 
-### Challenge-based
+## Objetivos de Aprendizaje
 
-Many learners find the best results if they explore technology by performing the tasks without step-by-step instructions. To support this style, we have built a workshop using a format modeled from Microsoft's What the Hack. A set of challenges is provided in the [Student folder](./what-the-hack/Student/), where you begin by first opening the project and progressing through a set of tasks typical of a developer using DevOps processes. Solution files and other tips are available in the [Coach folder](./what-the-hack/Coach/), including a couple of [resource files](./what-the-hack/Coach/resources).
+En este desafio aprenderas cómo:
 
-> **[Begin the challenge-based workshop!](./what-the-hack/README.md)**
+1. Manejar el control de versiones con GitHub.
+2. Contribuir código sin instalar recursos localmente con GitHub Codespaces.
+3. Recibir ayuda de GitHub Copilot, tu copiloto de inteligencia artificial.
+4. Automatizar despliegues con GitHub Actions.
+5. Asegurar la seguridad del código con GitHub Advanced Security.
+
+## Retos
+
+- Reto 00: **[Prerrequisitos - En sus marcas, listos… ¡fuera!](what-the-hack/Student/Challenge-00.md)**
+	 - Reúne los recursos necesarios y crea el repositorio para almacenar el proyecto
+- Reto 01: **[Configurar tu entorno de desarrollo](what-the-hack/Student/Challenge-01.md)**
+	 - Configura tu entorno de desarrollo en la nube
+- Reto 02: **[Añadir una funcionalidad a una aplicación existente](what-the-hack/Student/Challenge-02.md)**
+	 - Utiliza GitHub Copilot para ayudarte a añadir funcionalidades a tu aplicación
+- Reto 03: **[Configurar integración continua y asegurar la seguridad](what-the-hack/Student/Challenge-03.md)**
+	 - Establece integración continua e integra GitHub Advanced Security en tu pipeline
+- Reto 04: **[Crear un Entorno de Despliegue](what-the-hack/Student/Challenge-04.md)**
+	 - Utiliza CaC/IaC para aprovisionar tu entorno en la nube.
+- Reto 05: **[Configurar el Despliegue Continuo](what-the-hack/Student/Challenge-05.md)**
+	 - Despliega tu aplicación en Azure con Entrega Continua.
+
+## Prerrequisitos
+
+- Durante la introducción del evento, recibirás las credenciales de una cuenta de Azure que hemos creado especialmente para ti, con el fin de que puedas resolver este reto. Esta cuenta te permitirá acceder a Azure y realizar todas las actividades necesarias. Por favor, avísanos si no has recibido la cuenta una vez que se haya anunciado su distribución
+- Una cuenta de GitHub.
+
+## Consideraciones
+
+En esta sección explicamos que recibirán las credenciales, pero también que compartirán los recursos con su equipo. Esto significa que podrán ver lo que están haciendo los demás miembros de su equipo.

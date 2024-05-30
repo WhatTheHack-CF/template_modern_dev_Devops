@@ -39,42 +39,18 @@ With the project created, the code supply chain secured, and end-to-end testing 
 
 ## Create and configure the Azure resource group
 
-All resources created in Azure are contained in resource groups. As the name implies, this allows you to group resources together. In our situation, this allows for streamlined management and permissions, and to speed cleanup as deleting the resource group will delete all associated resources. Let's create the resource group using the [Azure command-line interface (CLI)](https://learn.microsoft.com/en-us/cli/azure/what-is-azure-cli), and create a security principal with permissions to the resource group. This account will be used in the future to create the resources and deploy the website.
+All resources created in Azure are contained in resource groups. As the name implies, this allows you to group resources together. In our situation, this allows for streamlined management and permissions, and to speed cleanup as deleting the resource group will delete all associated resources. 
 
-1. Return to your codespace.
-1. If a terminal window isn't already open, open one by pressing <kbd>Ctl</kbd> - <kbd>`</kbd>.
-1. Log into Azure via the Azure CLI by entering the following command:
+To complete this task, refer to the GitHub repository shared with you at the beginning of the activity. In this repository, you will find all necessary information, including the group name, Azure subscription ID, and the service principal JSON. Please follow the instructions provided there to ensure you have the correct details for this exercise. 
 
-    ```bash
-    az login --use-device-code
-    ```
+Here is a summary of what you will find in the GitHub repository:
 
-1. Follow the on-screen prompts to complete the authentication process.
-1. Create a resource group named **pets-workshop** by entering the following command:
+- **Azure Resource Group Name**: The name of the resource group that you will use.
+- **Azure Subscription ID**: The subscription ID needed for the task.
+- **Service Principal JSON**: The credentials required to manage the resource group.
 
-    ```bash
-    az group create -n pets-workshop -l westus
-    ```
+Ensure you have these details at hand by reviewing the provided GitHub repository. Once you have the necessary information, you can proceed with creating and configuring the Azure resource group accordingly.
 
-    > **NOTE:** If prompted to allow pasting through your browser, select **Allow**.
-
-1. Obtain your Azure subscription ID (used in the next step) by entering the following command:
-
-    ```bash
-    az account show --query id -o tsv
-    ```
-
-1. Create the service principal to be used to manage the resource group by entering the following command, replacing **<SUBSCRIPTION_ID>** with your subscription ID obtained in the prior step,:
-
-    ```bash
-    az ad sp create-for-rbac --name pets-workshop-app --role contributor --scopes /subscriptions/<SUBSCRIPTION_ID>/resourceGroups/pets-workshop --sdk-auth
-    ```
-
-    This command will return a [JSON](https://en.wikipedia.org/wiki/JSON) object which serves as the credentials used to create the resources on Azure and deploy the project.
-
-1. Copy the JSON to a scratchpad such as Notepad or Notes. You will use this object in the next step.
-
-> **IMPORTANT:** The credentials provided from this step should be treated the same as any credential or username and password. It should be properly secured and not shared with anyone.
 
 ## Securing secrets in a repository
 
