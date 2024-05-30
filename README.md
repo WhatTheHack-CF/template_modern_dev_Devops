@@ -1,19 +1,31 @@
-# Pets workshop
+# What The Hack - Modern development con DevOps y GitHub
 
-This repository contains the project for both a guided workshop and the Modern DevOps with GitHub What The Hack. The project is a Next.js app that uses MongoDB for the database. The design is to be used as a walk-through of GitHub features, including [Codespaces](https://docs.github.com/en/codespaces/overview), [Actions](https://docs.github.com/en/actions/learn-github-actions) and [GitHub Advanced Security (GHAS)](https://docs.github.com/en/github/getting-started-with-github/about-github-advanced-security). You'll explore how to use these features to implement and improve your organization's DevOps processes.
+## ¿Qué es What The Hack?
 
-## Getting started
+WhatTheHack es una iniciativa de Código Facilito auspiciada por Microsoft, donde enfrentaremos retos de diversas temáticas trabajando en equipos de 3 a 5 personas. La idea es resolver desafíos técnicos utilizando tecnología. Esto no es un taller; son retos que describen tareas a un nivel general para que puedas completarlas por tu cuenta. No son laboratorios paso a paso. Lo que buscamos es que tengas una experiencia de aprendizaje colaborativa, donde puedas compartir con tus compañeros de equipo. 
 
-> **[Get started learning about development and DevOps with GitHub!](./content/README.md)**
+Contarás con coaches y facilitadores que, en caso de que encuentres dificultades con alguna pregunta, podrán ayudarte a resolverla. No estás solo para enfrentar estos desafíos, tienes a tu equipo y a todos nosotros para ayudarte a superar los retos que presentamos. 
 
-## License 
+**¡Gracias y bienvenido a WhatTheHack!**
 
-This project is licensed under the terms of the MIT open source license. Please refer to [MIT](./LICENSE.txt) for the full terms.
+## Introducción del reto
 
-## Maintainers 
+Bienvenido a este desafío de What The Hack con Código Facilito. En este reto, nos centraremos en Modern development con DevOps y GitHub. Nuestro objetivo es ayudarte a aumentar la velocidad de desarrollo e implementar procedimientos adecuados de DevOps en tu organización. GitHub ofrece un conjunto de herramientas para desarrolladores que permiten agilizar la creación de código, automatizar tareas y garantizar la seguridad del código. A lo largo de este reto, explorarás cómo implementar estos procesos de manera efectiva.
 
-You can find the list of maintainers in [CODEOWNERS](./.github/CODEOWNERS).
+## El escenario del reto
 
-## Support
+Como parte de una campaña de ayudar a la comunidad, tu empresa está apoyando a un refugio local de animales actualizando, desplegando y gestionando una aplicación web para mostrar mascotas disponibles para adopción.
 
-This project is provided as-is, and may be updated over time. If you have questions, please open an issue.
+## Objetivos de Aprendizaje
+
+En este desafio aprenderas cómo:
+
+1. Manejar el control de versiones con GitHub.
+2. Contribuir código sin instalar recursos localmente con GitHub Codespaces.
+3. Recibir ayuda de GitHub Copilot, tu copiloto de inteligencia artificial.
+4. Automatizar despliegues con GitHub Actions.
+5. Asegurar la seguridad del código con GitHub Advanced Security.
+
+## Retos
+
+Puedes iniciar por [acá](/content/what-the-hack/Student/Challenge-00.md)
