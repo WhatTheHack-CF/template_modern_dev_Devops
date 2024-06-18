@@ -16,15 +16,6 @@ Bienvenido a este desafío de What The Hack con Código Facilito. En este reto, 
 
 Como parte de una campaña de ayudar a la comunidad, tu empresa está apoyando a un refugio local de animales actualizando, desplegando y gestionando una aplicación web para mostrar mascotas disponibles para adopción.
 
-## Objetivos de Aprendizaje
-
-En este desafio aprenderas cómo:
-
-1. Manejar el control de versiones con GitHub.
-2. Contribuir código sin instalar recursos localmente con GitHub Codespaces.
-3. Recibir ayuda de GitHub Copilot, tu copiloto de inteligencia artificial.
-4. Automatizar despliegues con GitHub Actions.
-5. Asegurar la seguridad del código con GitHub Advanced Security.
 
 ## Retos
 
