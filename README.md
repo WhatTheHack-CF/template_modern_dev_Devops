@@ -28,4 +28,4 @@ En este desafio aprenderas cómo:
 
 ## Retos
 
-Puedes iniciar por [acá](/content/what-the-hack/Student/Challenge-00.md)
+Puedes iniciar por [acá](https://whatthehack-cf.github.io/WhatTheHack_retos/065-ModernGitHubDev/)
