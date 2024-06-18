@@ -28,24 +28,10 @@ En este desafio aprenderas cómo:
 
 ## Retos
 
-- Reto 00: **[Prerrequisitos - En sus marcas, listos… ¡fuera!](what-the-hack/Student/Challenge-00.md)**
-	 - Reúne los recursos necesarios y crea el repositorio para almacenar el proyecto
-- Reto 01: **[Configurar tu entorno de desarrollo](what-the-hack/Student/Challenge-01.md)**
-	 - Configura tu entorno de desarrollo en la nube
-- Reto 02: **[Añadir una funcionalidad a una aplicación existente](what-the-hack/Student/Challenge-02.md)**
-	 - Utiliza GitHub Copilot para ayudarte a añadir funcionalidades a tu aplicación
-- Reto 03: **[Configurar integración continua y asegurar la seguridad](what-the-hack/Student/Challenge-03.md)**
-	 - Establece integración continua e integra GitHub Advanced Security en tu pipeline
-- Reto 04: **[Crear un Entorno de Despliegue](what-the-hack/Student/Challenge-04.md)**
-	 - Utiliza CaC/IaC para aprovisionar tu entorno en la nube.
-- Reto 05: **[Configurar el Despliegue Continuo](what-the-hack/Student/Challenge-05.md)**
-	 - Despliega tu aplicación en Azure con Entrega Continua.
+- (https://whatthehack-cf.github.io/WhatTheHack_retos/065-ModernGitHubDev/)[https://whatthehack-cf.github.io/WhatTheHack_retos/065-ModernGitHubDev/]
 
 ## Prerrequisitos
 
 - Durante la introducción del evento, recibirás las credenciales de una cuenta de Azure que hemos creado especialmente para ti, con el fin de que puedas resolver este reto. Esta cuenta te permitirá acceder a Azure y realizar todas las actividades necesarias. Por favor, avísanos si no has recibido la cuenta una vez que se haya anunciado su distribución
 - Una cuenta de GitHub.
 
-## Consideraciones
-
-En esta sección explicamos que recibirán las credenciales, pero también que compartirán los recursos con su equipo. Esto significa que podrán ver lo que están haciendo los demás miembros de su equipo.
